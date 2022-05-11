@@ -19,8 +19,8 @@ def create_inven():
     for an in ans.json()['inventory_items']:
         print(an)
 
-    for id in range(1000, 1005):
-        requests.delete('http://127.0.0.1:5000/delete', params={'id': id})
+    #for id in range(1000, 1005):
+    #    requests.delete('http://127.0.0.1:5000/delete', params={'id': id})
 
 
 if __name__ == '__main__':
